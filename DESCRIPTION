@@ -1,0 +1,17 @@
+Package: SendScreener
+Title: Send Screener
+Version: 0.0.1.0000
+Authors@R: 
+    person("Evan", "Ozmat", , "eozmat@albany.edu", role = c("aut", "cre"))
+Description: Link to in appointment screener automation.
+License: Apache License (>= 2)
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
