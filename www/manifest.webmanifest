@@ -1,9 +1,9 @@
 {
-  "name": "My Progressive Web App",
-  "short_name": "My App",
-  "description": "What it does!",
+  "name": "Send Screener",
+  "short_name": "Send Screener",
+  "description": "Send students in-appointment screeners!",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "https://ualbanyprojectaccess.shinyapps.io/SendScreener",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
