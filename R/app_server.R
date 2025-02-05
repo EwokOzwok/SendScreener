@@ -6,4 +6,10 @@
 #' @noRd
 app_server <- function(input, output, session) {
   # Your application server logic
+
+
+  observeEvent(input$send_screener,{
+    shinyjs::runjs("window.open('https://www.example.com', '_blank');")
+  })
+
 }

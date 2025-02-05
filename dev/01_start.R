@@ -20,16 +20,16 @@
 ##
 golem::fill_desc(
   pkg_name = "SendScreener", # The name of the golem package containing the app (typically lowercase, no underscore or periods)
-  pkg_title = "PKG_TITLE", # What the Package Does (One Line, Title Case, No Period)
-  pkg_description = "PKG_DESC.", # What the package does (one paragraph).
+  pkg_title = "Send Screener", # What the Package Does (One Line, Title Case, No Period)
+  pkg_description = "Link to in appointment screener automation.", # What the package does (one paragraph).
   authors = person(
-    given = "AUTHOR_FIRST", # Your First Name
-    family = "AUTHOR_LAST", # Your Last Name
-    email = "AUTHOR@MAIL.COM", # Your email
+    given = "Evan", # Your First Name
+    family = "Ozmat", # Your Last Name
+    email = "eozmat@albany.edu", # Your email
     role = c("aut", "cre") # Your role (here author/creator)
   ),
   repo_url = NULL, # The URL of the GitHub repo (optional),
-  pkg_version = "0.0.0.9000", # The version of the package containing the app
+  pkg_version = "0.0.1.0000", # The version of the package containing the app
   set_options = TRUE # Set the global golem options
 )
 
@@ -38,6 +38,7 @@ golem::install_dev_deps()
 
 ## Create Common Files ----
 ## See ?usethis for more information
+usethis::use_apache_license()
 usethis::use_mit_license("Golem User") # You can set another license here
 golem::use_readme_rmd(open = FALSE)
 devtools::build_readme()
@@ -62,6 +63,7 @@ golem::use_utils_server(with_test = TRUE)
 
 ## Use git ----
 usethis::use_git()
+usethis::use_github()
 ## Sets the remote associated with 'name' to 'url'
 usethis::use_git_remote(
   name = "origin",
