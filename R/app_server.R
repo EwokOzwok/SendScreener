@@ -9,7 +9,7 @@ app_server <- function(input, output, session) {
 
 
   observeEvent(input$send_screener,{
-    shinyjs::runjs("window.open('https://www.example.com', '_blank');")
+    shinyjs::runjs("window.open('https://albany.az1.qualtrics.com/jfe/form/SV_em1HjmV8EULvd1c', '_blank');")
   })
 
 }
